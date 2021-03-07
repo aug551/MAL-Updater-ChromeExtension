@@ -1,0 +1,23 @@
+{
+    "name": "Myanimelist Updater",
+    "description": "Updates your anime when them on 4anime",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "icons": {
+        "19": "icon.png",
+        "128": "icon_128.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "options_page": "options.html",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "https://myanimelist.net/*",
+        "https://api.myanimelist.net/*"
+    ]
+
+}

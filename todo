@@ -1,0 +1,14 @@
+Core:
+1. Figure out how to make popup show
+2. Add listener so when a 4anime.to website shows up, title displays.
+3. When title is recognized, popup shows up <----- gonna be a pain. Need to find a better way to query...
+4. For now, display current status/progress on anime
+
+After-core:
+5. Make it so you can add 1 or reduce 1 episode watched
+6. Make it so the user can add or reduce as many as they want and save to commit
+7. Make it so it suggests setting episodes_watched to the episode in the title
+
+Visuals:
+8. Define view parameters (width, height, buttons, colors, etc)
+9. Check Add the picture of the anime
